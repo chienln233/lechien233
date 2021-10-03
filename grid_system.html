@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/grid.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .container {
+            text-align: center; 
+        }
+
+        .course-item {
+            background-color: orange;
+            height: 260px;
+        }
+
+        /* h1 {
+            color: #fff;
+            line-height: 260px;
+            margin: 0;
+        } */
+
+        @media (max-width: 1023px) {
+            .course-item {
+                margin-top: 16px;
+            }
+        }
+
+        .category {
+            background-color: green;
+            height: 260px;
+        }
+
+        ul {
+            margin-top: 0;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .my-col {
+            min-height: 50vh;
+            background-color: orange;
+        }
+
+        .main {
+            display: flex;
+            padding: 0 32px;
+        }
+
+        .silerbar {
+            width: 300px;
+            background-color: #666;
+        }
+
+        .content {
+            flex: 1;
+            background-color: green;
+        }
+
+        .item {
+            background-color: orange;
+            min-height: 180px;
+            line-height: 180px;
+            text-align: center;
+            margin-top: 16px;
+        }
+
+        @media (min-width: 740px) and (max-width: 1023px) {
+            .hide-on-tablet {
+                display: none;
+            }
+        }
+
+        @media (max-width: 739px) {
+            .hide-on-mobile {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<!-- 
+    Column: .col
+    Prefix class:
+        - c - mobile
+        - m - tablet
+        - l - PC
+ -->
+
+<body>
+    <div class="main">
+        <div class="silerbar hide-on-mobile hide-on-tablet">
+            <h1>Silerbar</h1>
+        </div>
+
+        <div class="content">
+            <h1>9. Music Player (310)</h1>
+            <p>You can see the designs from the challenge below. Check out our Chrome extension to upload and browse similar designs easily.</p>
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 1</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 2</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 3</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 4</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 5</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 6</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 1</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 2</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 3</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 4</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 5</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 6</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 1</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 2</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 3</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 4</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 5</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 6</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 1</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 2</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 3</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 4</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 5</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 6</div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">Item 6</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
