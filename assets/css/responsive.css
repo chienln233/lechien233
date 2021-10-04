@@ -59,7 +59,7 @@
         --header-height: 70px;
         --navbar-height: 0;
     }
-    
+
     .hide-on-tablet {
         display: none;
     }
@@ -77,10 +77,10 @@
 /* Mobile */
 @media (max-width: 739px) {
     :root {
-        --header-height: 0px;
+        --header-height: 60px;
         --navbar-height: 0;
     }
-    
+
     .hide-on-mobile {
         display: none;
     }
